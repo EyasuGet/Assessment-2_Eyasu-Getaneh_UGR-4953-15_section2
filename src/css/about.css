@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #fff;
+}
+
+/* <--Header--> */
+
+header{
+    width: 100%;
+    min-height: 35vh;
+    background-color: rgba(70, 70, 70, 0.9);
+    color: white;
+   
+}
+
+.nav_container{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-left: 150px;
+}
+
+.nav_container .nav-link{
+    border: black 2px solid;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: rgba(96, 175, 16, 0.795);
+}
+
+.nav_container li a:hover{
+    background-color: #C70039;
+}
+
+.nav_container li a{
+    text-decoration: none;
+}
+
+.nav_container .active {
+    color: white;
+    background-color:#C70039;
+    border-radius: 15px;
+} 
+
+.slogan{
+    font-size: 1em;
+    padding-top: 20px;
+    padding-left: 30%;
+}
+
+.business-box{
+    padding: 0px;
+    font-size: 5em;
+    font-weight: bold;
+    padding-left: 10%;
+    margin-bottom: 70px;
+}
+
+
+
+/* <--Main--> */
+main{
+    background-color: rgb(240, 239, 239);
+}
+
+
+.greenheading{
+    color: rgba(96, 175, 16, 0.795);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.main-content{
+    display: flex;
+    margin: 0px 150px;
+    padding-top: 25px;
+    gap: 50px;
+}
+
+.main-content .container{
+    width: 70%;
+    line-height: 2;
+}
+
+.sidesponsor{
+    width: 30%;
+    margin: 20px;
+}
+.sponsers{
+    line-height: 1.5;
+}
+
+.sponsors p {
+    margin-bottom: 25px;
+}
+
+.list-label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.sidemenu li{
+    line-height: 2.5;
+}
+
+.sidebar-menu{
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.more-info{
+    display: flex;
+}
+.more-info > *{
+    margin: 5px;
+}
+
+.contrary{
+    width: 35%;
+}
+
+
+
+.contentinfo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 30px;
+    line-height: 2;
+    min-height: 50vh;
+    width: 100%;
+    background-color: darkslategrey;
+    color: #fff;
+}
+
+.contentinfo .imagegallery{
+    width: 30%;
+    margin: 0 0 0 150px;
+}
+.about{
+    width: 40%;
+}
+.contact{
+    width: 30%;
+    margin-right: 150px;
+}
+
+.photogallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+h2{
+    margin: 20px 0px;
+}
+.photogallery img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+.aboutimg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+footer{
+    min-height: 70px;
+    background-color: rgba(17, 16, 16, 0.856);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aqua;
+}
+
+footer p{
+    margin: 0 0 0 150px;
+}
+
+.footercontact ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-right: 150px;
+}
